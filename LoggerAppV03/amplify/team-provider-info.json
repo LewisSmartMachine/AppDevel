@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loggerappv03-dev-115158-authRole",
+      "UnauthRoleArn": "arn:aws:iam::356138642059:role/amplify-loggerappv03-dev-115158-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::356138642059:role/amplify-loggerappv03-dev-115158-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-loggerappv03-dev-115158-deployment",
+      "UnauthRoleName": "amplify-loggerappv03-dev-115158-unauthRole",
+      "StackName": "amplify-loggerappv03-dev-115158",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:356138642059:stack/amplify-loggerappv03-dev-115158/457acd00-60f2-11eb-a4ad-0a47e77f90bc",
+      "AmplifyAppId": "d3i9rlz79obmdb"
+    }
+  }
+}

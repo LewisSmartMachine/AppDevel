@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gpsReturn"
+    android:orientation="horizontal"
+    android:gravity="right"
+    >
+
+    <TextView
+        android:id="@+id/gps_return_label_tv"
+        android:paddingTop="100dp"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="@string/gps_return_label"
+
+        />
+
+    <TextView
+        android:id="@+id/gps_return_data_tv"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:text="@string/gps_return_label" />
+
+
+</LinearLayout>

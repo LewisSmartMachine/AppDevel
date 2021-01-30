@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loggerapp-dev-153536-authRole",
+      "UnauthRoleArn": "arn:aws:iam::356138642059:role/amplify-loggerapp-dev-153536-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::356138642059:role/amplify-loggerapp-dev-153536-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-loggerapp-dev-153536-deployment",
+      "UnauthRoleName": "amplify-loggerapp-dev-153536-unauthRole",
+      "StackName": "amplify-loggerapp-dev-153536",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:356138642059:stack/amplify-loggerapp-dev-153536/04129e80-5eb6-11eb-9795-02dd7379711a",
+      "AmplifyAppId": "diguntbumneuc"
+    },
+    "categories": {
+      "auth": {
+        "LoggerApp": {}
+      }
+    }
+  }
+}

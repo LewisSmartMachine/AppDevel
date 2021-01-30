@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/iTOW_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/iTOW_Lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_toStartOf="@+id/iTOW_tv"
+            android:text="@string/itow" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/gps_data_layout"
+        android:layout_width="200dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        />
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/aws_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
